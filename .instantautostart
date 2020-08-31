@@ -1,0 +1,1 @@
+rclone mount GoogleDrive: /home/bruno/drive &
