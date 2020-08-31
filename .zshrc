@@ -68,4 +68,4 @@ eval $(thefuck --alias)
 [ -f ~/.zsh/.extrasrc ] && source ~/.zsh/.extrasrc
 
 # bare git repo alias for dotfiles
-alias dotfiles="/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME"
+alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles.git --work-tree=$HOME"
