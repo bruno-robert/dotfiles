@@ -65,4 +65,4 @@ alias rm='rm -i'
 [ -f ~/.zsh/.extrasrc ] && source ~/.zsh/.extrasrc
 
 # bare git repo alias for dotfiles
-alias config="/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME"
+alias dotfiles="/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME"
