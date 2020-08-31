@@ -58,6 +58,9 @@ alias cp="cp -i"
 alias mv='mv -i'
 alias rm='rm -i'
 
+# codium alias
+alias code='codium'
+
 #Thefuck alias (fuck command)
 eval $(thefuck --alias)
 
@@ -65,4 +68,4 @@ eval $(thefuck --alias)
 [ -f ~/.zsh/.extrasrc ] && source ~/.zsh/.extrasrc
 
 # bare git repo alias for dotfiles
-alias config="/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME"
+alias dotfiles="/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME"
