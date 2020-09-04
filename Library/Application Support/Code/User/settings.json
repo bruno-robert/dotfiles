@@ -1,0 +1,118 @@
+{
+    "terminal.integrated.fontFamily": "Inconsolata-dz for Powerline, dz",
+    "editor.tabSize": 2,
+    "breadcrumbs.enabled": true,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "python.condaPath": "/Users/bruno/anaconda3/envs/scraping",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[xml]": {
+        "editor.defaultFormatter": "DotJoshJohnson.xml"
+    },
+    "editor.renderWhitespace": "all",
+    "psi-header.variables": [
+        ["authoremail", "bruno.robert@gurussolutions.com"]
+    ],
+    "psi-header.lang-config": [
+        {
+            "language": "javascript",
+            "begin": "/*\n***********************************************************************",
+            "end": " ***********************************************************************/",
+            "forceToTop": true
+        }
+    ],
+    "psi-header.templates": [
+        {
+            "language": "javascript",
+            "template": [
+                "The following JavaScript code is created by GURUS Solutions,",
+                "a NetSuite Partner. It is a SuiteFlex component containing custom code",
+                "intended for NetSuite (www.netsuite.com) and uses the SuiteScript API.",
+                "The code is provided \"as is\": GURUS Solutions shall not be liable",
+                "for any damages arising out the intended use or if the code is modified",
+                "after delivery.",
+                "",
+                "Company:     GURUS Solutions inc., www.gurussolutions.com",
+                "             Cloud Consulting Pioneers",
+                "Author:      <<authoremail>>",
+                "Date:        <<filecreated('MMM, DD YYYY, h:mm:ss a')>>",
+                "File:        <<filename>>"
+            ]
+        }
+    ],
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "terminal.integrated.inheritEnv": false,
+    "python.dataScience.sendSelectionToInteractiveWindow": false,
+    "python.dataScience.askForKernelRestart": false,
+    "window.autoDetectColorScheme": true,
+    "window.zoomLevel": 1,
+    "liveshare.presence": true,
+    "editor.lineNumbers": "relative",
+    "vim.easymotion": true,
+    "telemetry.enableTelemetry": false,
+    "vim.sneak": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "j"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "editor.cursorSurroundingLines": 10,
+    "explorer.confirmDragAndDrop": false,
+    "workbench.preferredDarkColorTheme": "Visual Studio Dark",
+    "workbench.colorTheme": "Visual Studio Dark",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "todo-tree.tree.showScanModeButton": false,
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "[html]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "workbench.editor.enablePreview": false,
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "TODO",
+        "XXX",
+        "INFO",
+        "NOTE"
+    ],
+    "editor.minimap.enabled": false,
+    "python.dataScience.alwaysTrustNotebooks": true/*,
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["h"],
+            "after": ["<insert>"]
+        },
+        {
+            "before": ["i"],
+            "after": ["<Up>"]
+        },
+        {
+            "before": ["j"],
+            "after": ["<Left>"]
+        },
+        {
+            "before": ["k"],
+            "after": ["<Down>"]
+        },
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": ["i"],
+            "after": ["<Up>"]
+        },
+        {
+            "before": ["j"],
+            "after": ["<Left>"]
+        },
+        {
+            "before": ["k"],
+            "after": ["<Down>"]
+        },
+    ]*/
+}

@@ -1,0 +1,62 @@
+{
+    "todo-tree.tree.showScanModeButton": false,
+    "workbench.editor.enablePreview": false,
+    "gitlens.advanced.telemetry.enabled": false,
+    "terminal.integrated.fontFamily": "Inconsolata-dz for Powerline, dz",
+    "psi-header.variables": [
+        ["authoremail", "bruno.robert@gurussolutions.com"]
+    ],
+    "psi-header.lang-config": [
+        {
+            "language": "javascript",
+            "begin": "/*\n***********************************************************************",
+            "end": " ***********************************************************************/",
+            "forceToTop": true
+        }
+    ],
+    "psi-header.templates": [
+        {
+            "language": "javascript",
+            "template": [
+                "The following JavaScript code is created by GURUS Solutions,",
+                "a NetSuite Partner. It is a SuiteFlex component containing custom code",
+                "intended for NetSuite (www.netsuite.com) and uses the SuiteScript API.",
+                "The code is provided \"as is\": GURUS Solutions shall not be liable",
+                "for any damages arising out the intended use or if the code is modified",
+                "after delivery.",
+                "",
+                "Company:     GURUS Solutions inc., www.gurussolutions.com",
+                "             Cloud Consulting Pioneers",
+                "Author:      <<authoremail>>",
+                "Date:        <<filecreated('MMM, DD YYYY, h:mm:ss a')>>",
+                "File:        <<filename>>"
+            ]
+        }
+    ],
+    "editor.minimap.enabled": false,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "j"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "vim.sneak": true,
+    "vim.easymotion": true,
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "TODO",
+        "XXX",
+        "INFO",
+        "NOTE"
+    ],
+    "editor.cursorSurroundingLines": 10,
+    "editor.lineNumbers": "relative",
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "editor.renderControlCharacters": false,
+    "editor.renderWhitespace": "all",
+    "window.zoomLevel": 1,
+}
