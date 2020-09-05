@@ -53,10 +53,12 @@
     ],
     "editor.cursorSurroundingLines": 10,
     "editor.lineNumbers": "relative",
+    "window.menuBarVisibility": "toggle",
     "[javascript]": {
         "editor.defaultFormatter": "HookyQR.beautify"
     },
     "editor.renderControlCharacters": false,
     "editor.renderWhitespace": "all",
     "window.zoomLevel": 1,
+    "workbench.colorTheme": "Default Light+",
 }

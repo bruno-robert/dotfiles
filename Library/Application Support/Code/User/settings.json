@@ -63,7 +63,7 @@
     "editor.cursorSurroundingLines": 10,
     "explorer.confirmDragAndDrop": false,
     "workbench.preferredDarkColorTheme": "Visual Studio Dark",
-    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.colorTheme": "Default Light+",
     "javascript.updateImportsOnFileMove.enabled": "always",
     "todo-tree.tree.showScanModeButton": false,
     "gitlens.currentLine.enabled": false,
