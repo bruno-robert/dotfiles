@@ -147,7 +147,7 @@ unset __conda_setup
 #  \_|   |_|\__,_|\__|\__\___|_|                                                                          
 #
 
-export PATH="$PATH:/Users/bruno/Devlocal/flutter/flutter/bin"
+export PATH="$PATH:/Users/bruno/flutter/bin"
 
 #   _____ _           _                        ______                                                     
 #  |  ___| |         | |                       |  ___|                                                    

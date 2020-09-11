@@ -82,7 +82,19 @@
         "NOTE"
     ],
     "editor.minimap.enabled": false,
-    "python.dataScience.alwaysTrustNotebooks": true/*,
+    "python.dataScience.alwaysTrustNotebooks": true,
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    }/*,
     "vim.normalModeKeyBindings": [
         {
             "before": ["h"],

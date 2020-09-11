@@ -47,8 +47,8 @@ alias .4='cd ../../../..'
 alias .5='cd ../../../../..'
 
 # Changing "ls" to "exa"
-alias l='exa -al --color=always --group-directories-first'  # list all 
-alias ll='exa -l --color=always --group-directories-first'  # list
+alias l='exa -l --color=always --group-directories-first'  # list all 
+alias ll='exa -al --color=always --group-directories-first'  # list
 alias la='exa -a --color=always --group-directories-first'  # all files and dirs
 alias lt='exa -aT --color=always --group-directories-first' # tree listing
 alias l.='exa -a | egrep "^\."'                             # dotfiles
@@ -59,7 +59,7 @@ alias mv='mv -i'
 alias rm='rm -i'
 
 # codium alias
-alias code='codium'
+# alias code='codium'
 
 #Thefuck alias (fuck command)
 eval $(thefuck --alias)
@@ -69,3 +69,8 @@ eval $(thefuck --alias)
 
 # bare git repo alias for dotfiles
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles.git --work-tree=$HOME"
+
+# start lindo market server
+alias startserv="/Users/bruno/miniconda3/envs/data/bin/python ~/Devlocal/lindo-market/flask_api.py"
+alias mountpcloud="rclone mount --vfs-cache-mode writes pcloud: ~/pCloud/ &"
+alias mountepcloud="rclone mount --vfs-cache-mode writes pcloud-encrypt: ~/pCloud-Encrypted/ &"
