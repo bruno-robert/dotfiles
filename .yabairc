@@ -41,6 +41,11 @@ yabai -m rule --add app="^VNC Viewer"        manage=off
 yabai -m rule --add app="^wine64-preloader"  manage=off
 yabai -m rule --add app="^EVE Launcher"      manage=off
 yabai -m rule --add app="^Speedtest"         manage=off
+yabai -m rule --add app="^World Clock Pro"   manage=off
+yabai -m rule --add app="^Photo Booth"       manage=off
+yabai -m rule --add app="^LastPass"          manage=off
+yabai -m rule --add app="^Harvest"           manage=off
+yabai -m rule --add app="^Cisco Webex Meetings"  manage=off
 
 yabai -m rule --add app="^Firefox$"          space=1
 yabai -m rule --add app="^Safari$"           space=3

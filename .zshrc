@@ -73,6 +73,8 @@ alias pushdotfiles="dotfiles add -u && dotfiles commit -m 'updating' && dotfiles
 
 # start lindo market server
 alias startserv="/Users/bruno/miniconda3/envs/data/bin/python ~/Devlocal/lindo-market/flask_api.py"
+
+# mount cloud drives
 alias mountpcloud="rclone mount --vfs-cache-mode writes pcloud: ~/pCloud/ &"
 alias mountepcloud="rclone mount --vfs-cache-mode writes pcloud-encrypt: ~/pCloud-Encrypted/ &"
 alias mountgdrive="rclone mount --vfs-cache-mode writes gdrive: ~/GoogleDrive/ &"
