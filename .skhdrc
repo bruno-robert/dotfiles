@@ -97,6 +97,9 @@ ctrl + alt - p : yabai -m space --rotate 270
 ctrl + alt - a : yabai -m space --layout bsp
 ctrl + alt - d : yabai -m space --layout float
 
+# toggle window fullscreen zoom
+alt - space : yabai -m window --toggle zoom-fullscreen
+
 # App shortcuts
 alt - return : osascript /Users/bruno/Scripts/open-iterm.scpt
 

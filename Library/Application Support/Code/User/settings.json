@@ -94,6 +94,12 @@
         "editor.suggestSelection": "first",
         "editor.tabCompletion": "onlySnippets",
         "editor.wordBasedSuggestions": false
+    },
+    "python.linting.enabled": false,
+    "files.associations": {
+        "*.lookml": "yaml",
+        "*.lkml": "yaml",
+        "*.ikml": "yaml"
     }/*,
     "vim.normalModeKeyBindings": [
         {

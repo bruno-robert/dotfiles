@@ -47,11 +47,11 @@ yabai -m rule --add app="^LastPass"          manage=off
 yabai -m rule --add app="^Harvest"           manage=off
 yabai -m rule --add app="^Cisco Webex Meetings"  manage=off
 
-yabai -m rule --add app="^Firefox$"          space=1
-yabai -m rule --add app="^Safari$"           space=3
-yabai -m rule --add app="^Slack$"            space=5
-yabai -m rule --add app="^Discord$"          space=5
-yabai -m rule --add app="^Spark$"            space=5
-yabai -m rule --add app="^Spotify$"          space=8
+# yabai -m rule --add app="^Firefox$"          space=1
+# yabai -m rule --add app="^Safari$"           space=3
+# yabai -m rule --add app="^Slack$"            space=5
+# yabai -m rule --add app="^Discord$"          space=5
+# yabai -m rule --add app="^Spark$"            space=5
+# yabai -m rule --add app="^Spotify$"          space=8
 
 echo "yabai configuration loaded.."

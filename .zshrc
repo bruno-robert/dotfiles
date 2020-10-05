@@ -78,3 +78,4 @@ alias startserv="/Users/bruno/miniconda3/envs/data/bin/python ~/Devlocal/lindo-m
 alias mountpcloud="rclone mount --vfs-cache-mode writes pcloud: ~/pCloud/ &"
 alias mountepcloud="rclone mount --vfs-cache-mode writes pcloud-encrypt: ~/pCloud-Encrypted/ &"
 alias mountgdrive="rclone mount --vfs-cache-mode writes gdrive: ~/GoogleDrive/ &"
+alias doom="~/.emacs.d/bin/doom"
