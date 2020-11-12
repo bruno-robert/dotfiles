@@ -46,6 +46,9 @@ yabai -m rule --add app="^Photo Booth"       manage=off
 yabai -m rule --add app="^LastPass"          manage=off
 yabai -m rule --add app="^Harvest"           manage=off
 yabai -m rule --add app="^Cisco Webex Meetings"  manage=off
+yabai -m rule --add app="^Step Two"          manage=off
+yabai -m rule --add app="^Find Any File"     manage=off
+yabai -m rule --add app="^JetBrains Toolbox" manage=off
 
 # yabai -m rule --add app="^Firefox$"          space=1
 # yabai -m rule --add app="^Safari$"           space=3

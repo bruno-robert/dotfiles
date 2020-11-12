@@ -1,16 +1,9 @@
 {
+    "rust-client.rustupPath": "$HOME/.cargo/bin/rustup",
+    "todo-tree.tree.showScanModeButton": false,
+    "workbench.editor.enablePreview": false,
+    "gitlens.advanced.telemetry.enabled": false,
     "terminal.integrated.fontFamily": "Inconsolata-dz for Powerline, dz",
-    "editor.tabSize": 2,
-    "breadcrumbs.enabled": true,
-    "diffEditor.ignoreTrimWhitespace": true,
-    "python.condaPath": "/Users/bruno/anaconda3/envs/scraping",
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[xml]": {
-        "editor.defaultFormatter": "DotJoshJohnson.xml"
-    },
-    "editor.renderWhitespace": "all",
     "psi-header.variables": [
         ["authoremail", "bruno.robert@gurussolutions.com"]
     ],
@@ -41,96 +34,96 @@
             ]
         }
     ],
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "terminal.integrated.inheritEnv": false,
-    "python.dataScience.sendSelectionToInteractiveWindow": false,
-    "python.dataScience.askForKernelRestart": false,
-    "window.autoDetectColorScheme": true,
-    "window.zoomLevel": 1,
-    "liveshare.presence": true,
-    "editor.lineNumbers": "relative",
-    "vim.easymotion": true,
-    "telemetry.enableTelemetry": false,
-    "vim.sneak": true,
+    "editor.minimap.enabled": false,
     "vim.insertModeKeyBindings": [
         {
             "before": ["j", "j"],
             "after": ["<Esc>"]
         }
     ],
+    "vim.sneak": true,
+    "vim.easymotion": true,
+    "todo-tree.general.tags": [
+        "BUG:",
+        "HACK:",
+        "FIXME:",
+        "TODO:",
+        "XXX:",
+        "INFO:",
+        "NOTE:",
+        "WARN:",
+        "ERR:"
+    ],
     "editor.cursorSurroundingLines": 10,
+    "editor.lineNumbers": "relative",
+    "window.menuBarVisibility": "toggle",
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "editor.renderControlCharacters": false,
+    "editor.renderWhitespace": "all",
+    "window.zoomLevel": 1,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "python.dataScience.askForKernelRestart": false,
+    "todo-tree.highlights.customHighlight": {
+        "TODO:": {
+            "icon": "check",
+            "type": "text-and-comment",
+            "background": "purple",
+            "foreground": "white",
+            "iconColour": "purple",
+        },
+        "BUG:": {
+            "icon": "bug",
+            "background": "orange",
+            "foreground": "black",
+            "iconColour": "orange",
+            "type": "text-and-comment",
+        },
+        "FIXME:": {
+            "icon": "flame",
+            "background": "orange",
+            "foreground": "black",
+            "iconColour": "orange",
+            "type": "text-and-comment",
+        },
+        "WARN:": {
+            "icon": "alert",
+            "background": "orange",
+            "foreground": "black",
+            "iconColour": "orange",
+            "type": "text-and-comment",
+        },
+        "NOTE:": {
+            "icon": "clippy",
+            "iconColour": "#f0d50a",
+            "background": "#f0d50a",
+            "foreground": "black",
+            "type": "text-and-comment",
+        },
+        "INFO:": {
+            "icon": "clippy",
+            "iconColour": "yellow",
+            "background": "yellow",
+            "foreground": "black",
+            "type": "text-and-comment",
+        },
+        "ERR:": {
+            "icon": "zap",
+            "background": "red",
+            "foreground": "white",
+            "iconColour": "red",
+            "type": "text-and-comment",
+        }
+    },
     "explorer.confirmDragAndDrop": false,
-    "workbench.preferredDarkColorTheme": "Visual Studio Dark",
-    "workbench.colorTheme": "Visual Studio Dark",
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "todo-tree.tree.showScanModeButton": false,
-    "gitlens.currentLine.enabled": false,
-    "gitlens.hovers.currentLine.over": "line",
+    "cSpell.userWords": [
+        "Netsuite"
+    ],
+    "python.dataScience.alwaysTrustNotebooks": true,
     "[html]": {
         "editor.defaultFormatter": "HookyQR.beautify"
     },
-    "workbench.editor.enablePreview": false,
-    "todo-tree.general.tags": [
-        "BUG",
-        "HACK",
-        "FIXME",
-        "TODO",
-        "XXX",
-        "INFO",
-        "NOTE"
-    ],
-    "editor.minimap.enabled": false,
-    "python.dataScience.alwaysTrustNotebooks": true,
-    "[dart]": {
-        "editor.formatOnSave": true,
-        "editor.formatOnType": true,
-        "editor.rulers": [
-            80
-        ],
-        "editor.selectionHighlight": false,
-        "editor.suggest.snippetsPreventQuickSuggestions": false,
-        "editor.suggestSelection": "first",
-        "editor.tabCompletion": "onlySnippets",
-        "editor.wordBasedSuggestions": false
-    },
-    "python.linting.enabled": false,
-    "files.associations": {
-        "*.lookml": "yaml",
-        "*.lkml": "yaml",
-        "*.ikml": "yaml"
-    }/*,
-    "vim.normalModeKeyBindings": [
-        {
-            "before": ["h"],
-            "after": ["<insert>"]
-        },
-        {
-            "before": ["i"],
-            "after": ["<Up>"]
-        },
-        {
-            "before": ["j"],
-            "after": ["<Left>"]
-        },
-        {
-            "before": ["k"],
-            "after": ["<Down>"]
-        },
-    ],
-    "vim.visualModeKeyBindings": [
-        {
-            "before": ["i"],
-            "after": ["<Up>"]
-        },
-        {
-            "before": ["j"],
-            "after": ["<Left>"]
-        },
-        {
-            "before": ["k"],
-            "after": ["<Down>"]
-        },
-    ]*/
 }

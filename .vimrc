@@ -57,6 +57,10 @@ endfunction
 :set tabstop=2 softtabstop=2 shiftwidth=2 expandtab 
 ":set softtabstop=0 noexpandtab 
 
+" Configuration for vimwiki
+  set nocompatible
+  filetype plugin on
+
 " PLUGIN CONFIGURATION
 if has('nvim')
   " Startify Configuration

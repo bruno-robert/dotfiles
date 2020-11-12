@@ -4,11 +4,13 @@ source ~/.vimrc
 
 call plug#begin('~/.vim/plugged')
 
+Plug 'vimwiki/vimwiki'
 Plug 'justinmk/vim-sneak'
-Plug 'preservim/nerdtree'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'easymotion/vim-easymotion'
+Plug 'vim-airline/vim-airline'
+Plug 'preservim/nerdtree'
 
 call plug#end()
 
