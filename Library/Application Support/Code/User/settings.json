@@ -104,7 +104,7 @@
             "type": "text-and-comment",
         },
         "INFO:": {
-            "icon": "clippy",
+            "icon": "info",
             "iconColour": "yellow",
             "background": "yellow",
             "foreground": "black",
