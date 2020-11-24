@@ -58,11 +58,19 @@ alias cp="cp -i"
 alias mv='mv -i'
 alias rm='rm -i'
 
+# npm icloud nosync
+alias npmi="npm install && mv node_modules node_modules.nosync && ln -s node_modules.nosync/ node_modules"
+
 # codium alias
 # alias code='codium'
 
 # Python Venv
 alias sourcehere='source ./env/bin/activate'
+
+# pyenv
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
 
 #Thefuck alias (fuck command)
 eval $(thefuck --alias)

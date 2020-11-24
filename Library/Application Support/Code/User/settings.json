@@ -1,5 +1,4 @@
 {
-    "rust-client.rustupPath": "$HOME/.cargo/bin/rustup",
     "todo-tree.tree.showScanModeButton": false,
     "workbench.editor.enablePreview": false,
     "gitlens.advanced.telemetry.enabled": false,
@@ -66,7 +65,6 @@
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
-    "python.dataScience.askForKernelRestart": false,
     "todo-tree.highlights.customHighlight": {
         "TODO:": {
             "icon": "check",
@@ -122,8 +120,24 @@
     "cSpell.userWords": [
         "Netsuite"
     ],
-    "python.dataScience.alwaysTrustNotebooks": true,
     "[html]": {
         "editor.defaultFormatter": "HookyQR.beautify"
     },
+    "jupyter.askForKernelRestart": false,
+    "jupyter.alwaysTrustNotebooks": true,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "[css]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
 }

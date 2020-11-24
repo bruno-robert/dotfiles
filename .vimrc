@@ -1,6 +1,6 @@
 syntax on
 " KEYBINDINGS
-:map gn :tabnew <Return>
+:map gn :tabnew . <Return>
 :map gc :tabclose <Return>
 :imap jj <Esc>
 
