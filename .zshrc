@@ -34,6 +34,22 @@ ex ()
   fi
 }
 
+
+# Python Venv
+# alias sourcehere='source ./env/bin/activate'
+# Will automatically switch to the python environment contained in the current
+# directory. It will search for (in order): env, .env.nosync, .env
+sourcehere () 
+{
+  if [ -d ./env ]; then
+    source ./env/bin/activate
+  elif [ -d ./.env.nosync ]; then
+    source ./.env.nosync/bin/activate
+  elif [ -d ./.env ]; then
+    source ./.env/bin/activate
+  fi
+}
+
 ### ALIASES ###
 
 # restart yabai window manager
@@ -59,13 +75,18 @@ alias mv='mv -i'
 alias rm='rm -i'
 
 # npm icloud nosync
-alias npmi="npm install && mv node_modules node_modules.nosync && ln -s node_modules.nosync/ node_modules"
+protectnode () {
+  if [ -d node_modules ]; then
+    mv node_modules .node_modules.nosync && ln -s .node_modules.nosync/ node_modules
+  else
+    echo "node_modules not found"
+  fi
+}
+# alias protectnode="mv node_modules .node_modules.nosync && ln -s .node_modules.nosync/ node_modules"
+alias npmi="npm install && protectnode"
 
 # codium alias
 # alias code='codium'
-
-# Python Venv
-alias sourcehere='source ./env/bin/activate'
 
 # pyenv
 if command -v pyenv 1>/dev/null 2>&1; then
