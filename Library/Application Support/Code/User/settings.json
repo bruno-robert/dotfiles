@@ -42,6 +42,15 @@
     ],
     "vim.sneak": true,
     "vim.easymotion": true,
+    "vim.handleKeys": {
+        "<C-f>": false,
+        "<C-b>": false,
+        "<C-j>": false,
+        "<C-w>": false,
+        "<C-c>": false,
+        "<C-v>": false,
+        "<C-a>": false
+    },
     "todo-tree.general.tags": [
         "BUG:",
         "HACK:",
@@ -134,10 +143,13 @@
     },
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
-    "workbench.editorAssociations": [
-        {
-            "viewType": "jupyter.notebook.ipynb",
-            "filenamePattern": "*.ipynb"
-        }
+    "workbench.editorAssociations": [],
+    "settingsSync.ignoredExtensions": [
+        "idleberg.applescript",
+        "ms-azuretools.vscode-docker",
+        "msjsdiag.vscode-react-native",
+        "rust-lang.rust",
+        "johnstoncode.svn-scm"
     ],
+    "python.languageServer": "Pylance",
 }
