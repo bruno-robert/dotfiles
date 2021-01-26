@@ -43,6 +43,8 @@ sourcehere ()
 {
   if [ -d ./env ]; then
     source ./env/bin/activate
+  elif [ -d ./venv ]; then
+    source ./venv/bin/activate
   elif [ -d ./.env.nosync ]; then
     source ./.env.nosync/bin/activate
   elif [ -d ./.env ]; then
