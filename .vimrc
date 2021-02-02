@@ -9,7 +9,7 @@ syntax on
 " toggle relative numbers
 :nnoremap <Leader>nn :set norelativenumber!<CR>
 " set's the search to empty
-:nnoremap <Leader>cc :let @/=""<CR>
+:nnoremap <Leader>cs :let @/=""<CR>
 
 " resize window width
 nnoremap <silent> <Leader>= :exe "vertical resize " . (winwidth(0) * 3/2)<CR>

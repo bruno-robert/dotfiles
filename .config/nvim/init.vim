@@ -31,6 +31,25 @@ Plug 'vim-airline/vim-airline'
 " file pane for vim
 Plug 'preservim/nerdtree'
 
+" Nerd Commenter
+Plug 'preservim/nerdcommenter'
+
+" colorize hex valuec
+Plug 'lilydjwg/colorizer'
+
+" Reload files modified externaly
+Plug 'djoshea/vim-autoread'
+
+Plug 'posva/vim-vue'
+
+Plug 'ntpeters/vim-better-whitespace'
+
+Plug 'tpope/vim-surround'
+
+" syntax highlight and more
+Plug 'sheerun/vim-polyglot'
+
+Plug 'hdima/python-syntax'
 call plug#end()
 
 set tabstop=2 softtabstop=2 shiftwidth=2 expandtab

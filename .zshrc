@@ -84,6 +84,13 @@ protectnode () {
     echo "node_modules not found"
   fi
 }
+unprotectnode () {
+  if [ -d .node_modules.nosync ]; then
+    rm -f node_modules %% mv .node_modules.nosync node_modules
+  else
+    echo "node_modules not found"
+  fi
+}
 # alias protectnode="mv node_modules .node_modules.nosync && ln -s .node_modules.nosync/ node_modules"
 alias npmi="npm install && protectnode"
 

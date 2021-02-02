@@ -42,7 +42,7 @@
     ],
     "vim.sneak": true,
     "vim.easymotion": true,
-    "vim.handleKeys": {
+    "vim.handleKeys": { 
         "<C-f>": false,
         "<C-b>": false,
         "<C-j>": false,
