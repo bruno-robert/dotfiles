@@ -1,6 +1,5 @@
 {
     "todo-tree.tree.showScanModeButton": false,
-    "workbench.editor.enablePreview": false,
     "gitlens.advanced.telemetry.enabled": false,
     "terminal.integrated.fontFamily": "Inconsolata-dz for Powerline, dz",
     "psi-header.variables": [
@@ -152,4 +151,5 @@
         "johnstoncode.svn-scm"
     ],
     "python.languageServer": "Pylance",
+    "workbench.editor.enablePreview": false,
 }
