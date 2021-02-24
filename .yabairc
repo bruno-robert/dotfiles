@@ -23,11 +23,11 @@ yabai -m config mouse_action2                resize
 
 # general space settings
 yabai -m config layout                       bsp
-yabai -m config top_padding                  12
-yabai -m config bottom_padding               12
-yabai -m config left_padding                 12
-yabai -m config right_padding                12
-yabai -m config window_gap                   12
+yabai -m config top_padding                  16
+yabai -m config bottom_padding               16
+yabai -m config left_padding                 16
+yabai -m config right_padding                16
+yabai -m config window_gap                   16
 
 # app rules
 yabai -m rule --add app="balenaEtcher"       manage=off
@@ -49,6 +49,16 @@ yabai -m rule --add app="^Cisco Webex Meetings"  manage=off
 yabai -m rule --add app="^Step Two"          manage=off
 yabai -m rule --add app="^Find Any File"     manage=off
 yabai -m rule --add app="^JetBrains Toolbox" manage=off
+yabai -m rule --add app="^Bitwarden"         manage=off
+yabai -m rule --add app="^Mosaic"            manage=off
+yabai -m rule --add app="^Cryptomator"       manage=off
+# yabai -m rule --add app="^Calendar" title="General" manage=off
+
+# ignore all windows with title preferences
+yabai -m rule --add title="Preferences" manage=off
+
+# ignoe all windows with the title general (this one I am still testing. Most preference windwos are called general)
+yabai -m rule --add title="General" manage=off
 
 # yabai -m rule --add app="^Firefox$"          space=1
 # yabai -m rule --add app="^Safari$"           space=3

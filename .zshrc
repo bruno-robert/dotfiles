@@ -109,7 +109,7 @@ eval $(thefuck --alias)
 [ -f ~/.zsh/.extrasrc ] && source ~/.zsh/.extrasrc
 
 # bare git repo alias for dotfiles
-alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles.git --work-tree=$HOME"
+alias dotfiles="git --git-dir=$HOME/.dotfiles.git --work-tree=$HOME"
 alias pushdotfiles="dotfiles add -u && dotfiles commit -m 'updating' && dotfiles push"
 
 # start lindo market server

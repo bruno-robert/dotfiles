@@ -126,6 +126,7 @@
     },
     "explorer.confirmDragAndDrop": false,
     "cSpell.userWords": [
+        "Concordia",
         "Netsuite"
     ],
     "[html]": {
@@ -151,5 +152,11 @@
         "johnstoncode.svn-scm"
     ],
     "python.languageServer": "Pylance",
+    "remote.SSH.remotePlatform": {
+        "192.168.1.101": "macOS"
+    },
+    "autoDocstring.docstringFormat": "sphinx",
     "workbench.editor.enablePreview": false,
+    "window.autoDetectColorScheme": true,
+    "workbench.colorTheme": "Default Light+",
 }
