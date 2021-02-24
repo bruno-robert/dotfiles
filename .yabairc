@@ -54,6 +54,11 @@ yabai -m rule --add app="^Mosaic"            manage=off
 yabai -m rule --add app="^Cryptomator"       manage=off
 # yabai -m rule --add app="^Calendar" title="General" manage=off
 
+# Pycharm window preferences
+yabai -m rule --add app="^PyCharm" title="Push Commits to.*" manage=off
+yabai -m rule --add app="^PyCharm" title="Create New Branch From.*" manage=off
+
+
 # ignore all windows with title preferences
 yabai -m rule --add title="Preferences" manage=off
 
