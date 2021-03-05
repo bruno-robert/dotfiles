@@ -123,3 +123,9 @@ alias doom="~/.emacs.d/bin/doom"
 
 # Forklift alias (so you can open a directory in forklift with `fl .`)
 alias fl="open -a ForkLift"
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/bruno/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/bruno/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/bruno/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/bruno/google-cloud-sdk/completion.zsh.inc'; fi

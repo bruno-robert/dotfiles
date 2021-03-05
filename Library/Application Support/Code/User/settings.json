@@ -149,7 +149,9 @@
         "ms-azuretools.vscode-docker",
         "msjsdiag.vscode-react-native",
         "rust-lang.rust",
-        "johnstoncode.svn-scm"
+        "johnstoncode.svn-scm",
+        "tady.vscode-query-runner",
+        "shinichi-takii.sql-bigquery"
     ],
     "python.languageServer": "Pylance",
     "remote.SSH.remotePlatform": {
@@ -158,5 +160,7 @@
     "autoDocstring.docstringFormat": "sphinx",
     "workbench.editor.enablePreview": false,
     "window.autoDetectColorScheme": true,
-    "workbench.colorTheme": "Default Light+",
+    "python.showStartPage": false,
+    "queryRunner.keyFilename": "/Volumes/GURUS_Solutions/service account keys/solid-terra-271714_query-runner-admin.json",
+    "queryRunner.projectId": "solid-terra-271714",
 }

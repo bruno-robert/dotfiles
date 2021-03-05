@@ -31,7 +31,7 @@ yabai -m config window_gap                   16
 
 # app rules
 yabai -m rule --add app="balenaEtcher"       manage=off
-yabai -m rule --add app="System Preferences" manage=off 
+yabai -m rule --add app="System Preferences" manage=off
 yabai -m rule --add app="System Information" manage=off
 yabai -m rule --add app="Bartender 3"        manage=off
 yabai -m rule --add app="iStat Menus"        manage=off
@@ -52,12 +52,40 @@ yabai -m rule --add app="^JetBrains Toolbox" manage=off
 yabai -m rule --add app="^Bitwarden"         manage=off
 yabai -m rule --add app="^Mosaic"            manage=off
 yabai -m rule --add app="^Cryptomator"       manage=off
-# yabai -m rule --add app="^Calendar" title="General" manage=off
+yabai -m rule --add app="^Squash"            manage=off
+yabai -m rule --add app="^CleanShot X"       manage=off
+yabai -m rule --add app="^BetterZip"         manage=off
+yabai -m rule --add app="^DaisyDisk"         manage=off
+yabai -m rule --add app="^Archive Utility"   manage=off
+yabai -m rule --add app="^pCloud Drive"      manage=off
+
+# TablePlus Configuration
+yabai -m rule --add app="^TablePlus" title="Connection.*" manage=off
+
+# Blender window preferences
+yabai -m rule --add app="^Blender" title="Blender File View.*" manage=off
 
 # Pycharm window preferences
-yabai -m rule --add app="^PyCharm" title="Push Commits to.*" manage=off
-yabai -m rule --add app="^PyCharm" title="Create New Branch From.*" manage=off
+jetbrain_tools=$jetbrains_tools
+yabai -m rule --add app="^$jetbrains_tools" title="Welcome to.*" manage=off
+yabai -m rule --add app="^$jetbrains_tools" title="Push Commits to.*" manage=off
+yabai -m rule --add app="^$jetbrains_tools" title="Create New Branch From.*" manage=off
+yabai -m rule --add app="^$jetbrains_tools" title="Rename.*" manage=off
+yabai -m rule --add app="^$jetbrains_tools" title="Macros.*" manage=off
+yabai -m rule --add app="^$jetbrains_tools" title="Run/Debug Configurations.*" manage=off
+yabai -m rule --add app="^$jetbrains_tools" title="Settings Repository.*" manage=off
+yabai -m rule --add app="^$jetbrains_tools" title="Update Project.*" manage=off
+yabai -m rule --add app="^$jetbrains_tools" title="Data Sources and Drivers.*" manage=off
+yabai -m rule --add app="^$jetbrains_tools" title="Add File to Git.*" manage=off
+yabai -m rule --add app="^$jetbrains_tools" title="Delete.*" manage=off
+yabai -m rule --add app="^$jetbrains_tools" title="Commit Changes.*" manage=off
+yabai -m rule --add app="^$jetbrains_tools" title="" manage=off
+yabai -m rule --add app="^$jetbrains_tools" title="Python Interpreters" manage=off
+yabai -m rule --add app="^$jetbrains_tools" title="Add Python Interpreter" manage=off
 
+# Godot rules
+yabai -m rule --add app="Godot" title=".*(DEBUG)" manage=off
+yabai -m rule --add app="Godot" title="Godot Engine - Project Manager.*" manage=off
 
 # ignore all windows with title preferences
 yabai -m rule --add title="Preferences" manage=off

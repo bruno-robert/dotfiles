@@ -4,6 +4,11 @@ syntax on
 :map gc :tabclose <Return>
 :imap jj <Esc>
 
+" I like using H and L for beginning/end of line
+nmap H ^
+nmap L $
+
+
 " toggle centered cursor
 :nnoremap <Leader>zz :let &scrolloff=999-&scrolloff<CR>
 " toggle relative numbers

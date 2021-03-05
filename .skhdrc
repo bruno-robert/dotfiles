@@ -103,7 +103,8 @@ ctrl + alt - d : yabai -m space --layout float
 alt - space : yabai -m window --toggle zoom-fullscreen
 
 # App shortcuts
-alt - return : osascript /Users/bruno/Scripts/open-iterm.scpt
+# alt - return : osascript /Users/bruno/Scripts/open-iterm.scpt
+alt - t : osascript /Users/bruno/Scripts/open-iterm.scpt
 
 # window size control without without mode
 # increase window width
