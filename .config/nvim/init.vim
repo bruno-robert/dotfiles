@@ -49,6 +49,9 @@ Plug 'tpope/vim-surround'
 " syntax highlight and more
 Plug 'sheerun/vim-polyglot'
 
+" Rust lang support
+Plug 'rust-lang/rust.vim'
+
 Plug 'hdima/python-syntax'
 call plug#end()
 

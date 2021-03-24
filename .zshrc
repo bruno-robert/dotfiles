@@ -101,6 +101,8 @@ alias npmi="npm install && protectnode"
 if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
 fi
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT:$PATH"
 
 #Thefuck alias (fuck command)
 eval $(thefuck --alias)
@@ -129,3 +131,4 @@ if [ -f '/Users/bruno/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/bruno/goo
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/bruno/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/bruno/google-cloud-sdk/completion.zsh.inc'; fi
+
