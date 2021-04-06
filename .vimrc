@@ -8,6 +8,8 @@ syntax on
 nmap H ^
 nmap L $
 
+" Enable mouse support
+set mouse=a
 
 " toggle centered cursor
 :nnoremap <Leader>zz :let &scrolloff=999-&scrolloff<CR>

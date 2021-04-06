@@ -132,3 +132,8 @@ if [ -f '/Users/bruno/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/bruno/goo
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/bruno/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/bruno/google-cloud-sdk/completion.zsh.inc'; fi
 
+# python poetry
+export PATH="$HOME/.poetry/bin:$PATH"
+
+# This is for git signign with gpg
+export GPG_TTY=$(tty)

@@ -165,7 +165,8 @@
         "burkeholland.simple-react-snippets",
         "ericbirdsall.suitesnippets",
         "octref.vetur",
-        "wordpresstoolbox.wordpress-toolbox"
+        "wordpresstoolbox.wordpress-toolbox",
+        "denoland.vscode-deno"
     ],
     "python.languageServer": "Pylance",
     "remote.SSH.remotePlatform": {
@@ -183,5 +184,9 @@
     "terminal.integrated.cursorStyle": "line",
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "workbench.colorTheme": "Default Light+",
+    "codestream.email": "bruno.jeanluke@icloud.com",
+    "files.exclude": {
+        "**/.git": false
+    },
+    "vim.vimrc.enable": true,
 }
