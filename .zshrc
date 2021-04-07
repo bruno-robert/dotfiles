@@ -137,3 +137,7 @@ export PATH="$HOME/.poetry/bin:$PATH"
 
 # This is for git signign with gpg
 export GPG_TTY=$(tty)
+
+# Export variables for svn
+export SVN_EDITOR="nvim"
+
