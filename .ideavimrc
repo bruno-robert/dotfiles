@@ -1,0 +1,12 @@
+:set relativenumber
+:set number
+:set surround
+:set easymotion
+
+:imap jj <Esc>
+
+" I like using H and L for beginning/end of line
+nmap H ^
+nmap L $
+
+" set clipboard=unnamed
