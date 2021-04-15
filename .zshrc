@@ -112,7 +112,7 @@ eval $(thefuck --alias)
 
 # bare git repo alias for dotfiles
 alias dotfiles="git --git-dir=$HOME/.dotfiles.git --work-tree=$HOME"
-alias pushdotfiles="dotfiles add -u && dotfiles commit -m 'updating' && dotfiles push"
+alias pushdotfiles="dotfiles add -u && dotfiles commit -m 'updating' && dotfiles push && dotfiles push github"
 
 # start lindo market server
 alias startserv="/Users/bruno/miniconda3/envs/data/bin/python ~/Devlocal/lindo-market/flask_api.py"
