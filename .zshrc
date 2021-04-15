@@ -74,7 +74,7 @@ alias l.='exa -a | egrep "^\."'                             # dotfiles
 # confirm before overwriting something
 alias cp="cp -i"
 alias mv='mv -i'
-alias rm='rm -i'
+# alias rm='rm -i'
 
 # npm icloud nosync
 protectnode () {

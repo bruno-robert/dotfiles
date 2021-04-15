@@ -11,6 +11,9 @@ nmap L $
 " Enable mouse support
 set mouse=a
 
+" hide the grey column on the left
+set signcolumn=no
+
 " toggle centered cursor
 :nnoremap <Leader>zz :let &scrolloff=999-&scrolloff<CR>
 " toggle relative numbers
