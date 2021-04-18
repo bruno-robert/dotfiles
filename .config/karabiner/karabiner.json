@@ -2116,7 +2116,7 @@
                     },
                     "to": [
                         {
-                            "key_code": "launchpad"
+                            "apple_vendor_keyboard_key_code": "launchpad"
                         }
                     ]
                 },
@@ -2126,7 +2126,7 @@
                     },
                     "to": [
                         {
-                            "key_code": "illumination_decrement"
+                            "key_code": "f5"
                         }
                     ]
                 },
@@ -2136,7 +2136,7 @@
                     },
                     "to": [
                         {
-                            "key_code": "illumination_increment"
+                            "key_code": "f6"
                         }
                     ]
                 },
@@ -2214,16 +2214,6 @@
                     "to": [
                         {
                             "key_code": "delete_forward"
-                        }
-                    ]
-                },
-                {
-                    "from": {
-                        "pointing_button": "button4"
-                    },
-                    "to": [
-                        {
-                            "pointing_button": "button4"
                         }
                     ]
                 }
