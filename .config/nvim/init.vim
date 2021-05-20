@@ -53,6 +53,11 @@ Plug 'sheerun/vim-polyglot'
 Plug 'rust-lang/rust.vim'
 
 Plug 'hdima/python-syntax'
+
+" Autoformating
+Plug 'Chiel92/vim-autoformat'
+
+
 call plug#end()
 
 set tabstop=2 softtabstop=2 shiftwidth=2 expandtab

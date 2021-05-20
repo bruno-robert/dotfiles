@@ -9,4 +9,6 @@
 nmap H ^
 nmap L $
 
+set scrolloff=5
+
 " set clipboard=unnamed

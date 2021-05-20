@@ -69,7 +69,6 @@
     },
     "editor.renderControlCharacters": false,
     "editor.renderWhitespace": "all",
-    "window.zoomLevel": 1,
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
@@ -134,7 +133,6 @@
     },
     "jupyter.askForKernelRestart": false,
     "jupyter.alwaysTrustNotebooks": true,
-    "diffEditor.ignoreTrimWhitespace": true,
     "[css]": {
         "editor.defaultFormatter": "HookyQR.beautify"
     },
@@ -188,4 +186,10 @@
         "**/.git": false
     },
     "vim.vimrc.enable": true,
+    "python.defaultInterpreterPath": "/Users/bruno/.pyenv/versions/miniconda3-latest/bin/python",
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.preferredDarkColorTheme": "One Dark Pro",
+    "editor.formatOnPaste": true,
+    "window.zoomLevel": 1,
+    "editor.accessibilitySupport": "on",
 }

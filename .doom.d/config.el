@@ -53,3 +53,74 @@
 ;;
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
+
+;; ===============
+;; Bruno's config
+;; ===============
+;; maximize the window upon startup
+(add-to-list 'initial-frame-alist '(fullscreen . maximized))
+
+;; All this configures the python auto complete with elpy
+;; It also allows me to run a python file with 'C-c C-c'
+;; (use-package elpy
+;;   :ensure t
+;;   :init
+;;   (elpy-enable)
+;;   )
+;; (setq elpy-rpc-virtualenv-path "~/Environments/emacs_main/")
+;; (setq elpy-rpc-python-command "python")
+;; (setq python-shell-interpreter "python") ;; This is what `C-c C-c` will use
+
+(use-package lsp-python-ms
+  :ensure t
+  :init (setq lsp-python-ms-auto-install-server t)
+  :hook (python-mode . (lambda ()
+                          (require 'lsp-python-ms)
+                          (lsp))))  ; or lsp-deferred
+
+;; md-roam and org-roam
+
+;; (use-package! md-roam ; load immediately, before org-roam
+;;   :config
+;;   (setq md-roam-file-extension-single "md"))
+    ;you can omit this if md, which is the default.
+
+;; (use-package org-roam
+;;       :ensure t
+;;       :hook
+;;       (after-init . org-roam-mode)
+;;       :custom
+;;       (org-roam-directory "~/pCloud Syncs/Org")
+;;       :bind (:map org-roam-mode-map
+;;               (("C-c n l" . org-roam)
+;;                ("C-c n f" . org-roam-find-file)
+;;                ("C-c n g" . org-roam-graph))
+;;               :map org-mode-map
+;;               (("C-c n i" . org-roam-insert))
+;;               (("C-c n I" . org-roam-insert-immediate))))
+
+(setq org-roam-directory "~/pCloud Syncs/Org")
+
+;; ==== Bindings =====
+
+;; window movement
+(map! "s-<up>"    #'windmove-up
+      "s-<right>" #'windmove-right
+      "s-<left>"  #'windmove-left
+      "s-<down>"  #'windmove-down)
+
+;; lsp bindings
+(map! :leader
+  (:prefix ("l" . "lang")
+  (:prefix ("g" . "Go to")
+    :desc "Implementation"            "i" #'lsp-goto-implementation
+    :desc "Definition"                "d" #'lsp-goto-type-definition)
+  (:prefix ("f" . "Find")
+    :desc "Definition"                "d" #'lsp-find-definition
+    :desc "References"                "r" #'lsp-find-references)
+  (:prefix ("l" . "Lens")
+    :desc "Show"                      "l" #'lsp-lens-show
+    :desc "Hide"                      "q" #'lsp-lens-hide)
+  (:prefix ("m" . "menu")
+    :desc "Show"                      "m" #'lsp-ui-imenu
+    :desc "Hide"                      "q" #'lsp-ui-imenu--kill)))

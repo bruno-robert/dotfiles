@@ -48,3 +48,28 @@
 ;(unpin! pinned-package another-pinned-package)
 ;; ...Or *all* packages (NOT RECOMMENDED; will likely break things)
 ;(unpin! t)
+;;
+;;==============
+;;Bruno's Config
+;;==============
+;; (package! elpy)
+
+(package! web-beautify)
+
+(package! lsp-python-ms)
+(setq lsp-python-ms-auto-install-server t)
+(add-hook 'python-mode-hook #'lsp) ; or lsp-deferred
+
+;; md-roam and org-roam
+
+(package! org-roam
+  :recipe (:host github :repo "org-roam/org-roam"))
+
+(package! md-roam
+  :recipe (:host github :repo "nobiot/md-roam"))
+
+(package! js-format
+  :recipe (:host github :host "futurist/js-format.el"))
+
+(package! jupyter)
+
