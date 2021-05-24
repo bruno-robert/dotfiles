@@ -192,4 +192,7 @@
     "editor.formatOnPaste": true,
     "window.zoomLevel": 1,
     "editor.accessibilitySupport": "on",
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
 }
