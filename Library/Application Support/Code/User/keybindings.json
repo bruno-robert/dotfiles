@@ -26,5 +26,32 @@
         "key": "ctrl+l",
         "command": "workbench.action.navigateRight",
         "when": "vim.mode != 'Insert'"
+    },
+    {
+        "key": "alt+t",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+    },
+    {
+        "key": "ctrl+`",
+        "command": "-workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+    },
+    {
+        "key": "alt+r",
+        "command": "python.execInTerminal"
+    },
+    {
+        "key": "cmd+k cmd+o",
+        "command": "workbench.action.toggleActivityBarVisibility"
+    },
+    {
+        "key": "cmd+k e",
+        "command": "-workbench.files.action.focusOpenEditorsView",
+        "when": "workbench.explorer.openEditorsView.active"
+    },
+    {
+        "key": "cmd+k e",
+        "command": "workbench.files.action.focusOpenEditorsView"
     }
 ]

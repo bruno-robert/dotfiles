@@ -39,7 +39,7 @@ ex ()
 # alias sourcehere='source ./env/bin/activate'
 # Will automatically switch to the python environment contained in the current
 # directory. It will search for (in order): env, .env.nosync, .env
-sourcehere () 
+sourcehere ()
 {
   if [ -d ./env ]; then
     source ./env/bin/activate
@@ -141,3 +141,4 @@ export GPG_TTY=$(tty)
 # Export variables for svn
 export SVN_EDITOR="nvim"
 
+unalias gf
