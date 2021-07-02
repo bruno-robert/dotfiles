@@ -1,0 +1,22 @@
+[user]
+	name = Bruno Robert
+	email = bruno.jeanluke@icloud.com
+	signingkey = 041AD25CC4261071
+[credential]
+	helper = osxkeychain
+[core]
+	editor = nvim
+	autocrlf = input
+	excludesfile = /Users/bruno/.gitignore_global
+[pull]
+	rebase = false
+[init]
+	defaultBranch = master
+[gpg]
+	program = gpg
+[commit]
+	gpgsign = true
+[diff]
+    tool = vscode
+[difftool "vscode"]
+    cmd = code --wait --diff $LOCAL $REMOTE

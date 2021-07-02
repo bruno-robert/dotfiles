@@ -53,5 +53,15 @@
     {
         "key": "cmd+k e",
         "command": "workbench.files.action.focusOpenEditorsView"
+    },
+    {
+        "key": "shift+alt+t",
+        "command": "workbench.action.terminal.new",
+        "when": "terminalProcessSupported"
+    },
+    {
+        "key": "ctrl+shift+`",
+        "command": "-workbench.action.terminal.new",
+        "when": "terminalProcessSupported"
     }
 ]
