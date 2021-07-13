@@ -8,6 +8,8 @@ ctrl + alt + shift + cmd - t : open -a "iTerm"
 ctrl + alt + shift + cmd - p : open -a "pycharm"
 ctrl + alt + shift + cmd - o : open -a "Obsidian"
 ctrl + alt + shift + cmd - g : open -a "Gitfox"
+ctrl + alt + shift + cmd - b : open -a "Bitwarden"
+ctrl + alt + shift + cmd - m : open -a "Mail"
 
 # Meh bindings
 ctrl + alt + shift - s : open -a "Slack"

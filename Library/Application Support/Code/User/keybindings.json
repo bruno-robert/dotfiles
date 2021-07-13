@@ -63,5 +63,13 @@
         "key": "ctrl+shift+`",
         "command": "-workbench.action.terminal.new",
         "when": "terminalProcessSupported"
+    },
+    {
+        "key": "cmd+7",
+        "command": "-workbench.action.focusSeventhEditorGroup"
+    },
+    {
+        "key": "cmd+7",
+        "command": "outline.focus"
     }
 ]
