@@ -142,3 +142,6 @@ export GPG_TTY=$(tty)
 export SVN_EDITOR="nvim"
 
 unalias gf
+
+# flutter
+export PATH="$PATH:/home/bruno/flutter/bin"

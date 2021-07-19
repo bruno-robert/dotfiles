@@ -220,4 +220,3 @@ if has('nvim')
   " Resume latest coc list.
   nnoremap <silent> <space>p  :<C-u>CocListResume<CR> 
 endif
-
