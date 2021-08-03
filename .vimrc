@@ -19,7 +19,7 @@ set signcolumn=no
 " toggle relative numbers
 :nnoremap <Leader>nn :set norelativenumber!<CR>
 " set's the search to empty
-:nnoremap <Leader>cs :let @/=""<CR>
+:nnoremap <Leader>ss :let @/=""<CR>
 
 " resize window width
 nnoremap <silent> <Leader>= :exe "vertical resize " . (winwidth(0) * 3/2)<CR>
@@ -31,9 +31,6 @@ nnoremap <C-k> <C-W>k
 nnoremap <C-h> <C-W>h
 nnoremap <C-l> <C-W>l
 :tnoremap <Esc> <C-\><C-n>
-
-" Open/close nerdTree
-map <C-n> :NERDTreeToggle<CR>
 
 " auto close stuff
 let s:autoCloseState=1
@@ -51,7 +48,7 @@ function! ToggleAutoClose()
     inoremap {<CR> {<CR>}<ESC>O
     inoremap {;<CR> {<CR>};<ESC>O
   else
-    iunmap " 
+    iunmap "
     iunmap '
     iunmap (
     iunmap [
@@ -67,12 +64,17 @@ endfunction
 :set tabstop=2 softtabstop=2 shiftwidth=2 expandtab 
 ":set softtabstop=0 noexpandtab 
 
-" Configuration for vimwiki
+" PLUGIN CONFIGURATION
+if has('nvim')
+
+  " Configuration for vimwiki
   set nocompatible
   filetype plugin on
 
-" PLUGIN CONFIGURATION
-if has('nvim')
+
+  " Open/close nerdTree
+  map <C-n> :NERDTreeToggle<CR>
+
   " Startify Configuration
   let g:startify_session_persistence = 1
   let g:startify_session_autoload = 1

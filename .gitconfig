@@ -17,6 +17,8 @@
 [commit]
 	gpgsign = true
 [diff]
-    tool = vscode
+    tool = opendiff
 [difftool "vscode"]
     cmd = code --wait --diff $LOCAL $REMOTE
+[merge]
+	tool = opendiff

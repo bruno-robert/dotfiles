@@ -11,10 +11,8 @@ ctrl + alt + shift + cmd - o : open -a "Obsidian"
 ctrl + alt + shift + cmd - g : open -a "Gitfox"
 ctrl + alt + shift + cmd - b : open -a "Bitwarden"
 ctrl + alt + shift + cmd - m : open -a "Mail"
-ctrl + alt + shift + cmd - z : open -a "Zoom"
+ctrl + alt + shift + cmd - z : open -a "zoom.us"
 ctrl + alt + shift + cmd - w : open -a "Slack"
+ctrl + alt + shift + cmd - r : open -a "Trello"
+ctrl + alt + shift + cmd - a : open -a "Brave Browser"
 
-# Meh bindings
-ctrl + alt + shift - s : open -a "Slack"
-ctrl + alt + shift - z : open -a "zoom.us"
-ctrl + alt + shift - g : open -a "Godot"
